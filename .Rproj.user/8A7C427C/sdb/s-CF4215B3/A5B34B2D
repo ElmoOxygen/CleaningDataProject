@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"README\"\noutput: html_document\n---\n\nThe code in run_analysis.R combines data from the 'test' and 'train' sets and combines them into a single data frame. Loading the data is done using the LaF library. This is so that the the data be filtered for the words 'mean' and 'std' in the variable labels using grep as the data is loading, saving processing time.\n\nThe code then creates a new data set from the averages of of all the variables, split and organized by activity and subject.",
+    "created" : 1434497578334.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "373500842",
+    "id" : "A5B34B2D",
+    "lastKnownWriteTime" : 1434499028,
+    "path" : "~/Coursera/Getting and Cleaning Data/Assignment1/README.Rmd",
+    "project_path" : "README.Rmd",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
