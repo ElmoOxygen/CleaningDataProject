@@ -1,19 +1,10 @@
-1. Raw Data
+Raw Data
 
 The raw data is downloaded from UCI Machine Learning Repository
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-
-2. Data Processing
-
-The raw data is processed according to the Getting and Cleaning Data course project
-
-https://class.coursera.org/getdata-015/human_grading/view/courses/973502/assessments/3/submissions
-
-
-3. Data Description
-
+Data
 The cleaned data is 180 x 81 
 
 The column variables:
@@ -46,9 +37,11 @@ The column variables:
 [76] "fBodyBodyGyroMag-mean()"         "fBodyBodyGyroMag-std()"          "fBodyBodyGyroMag-meanFreq()"    
 [79] "fBodyBodyGyroJerkMag-mean()"     "fBodyBodyGyroJerkMag-std()"      "fBodyBodyGyroJerkMag-meanFreq()" 
 
-subjectID is an integer from 1 to 30, corresponding to a test subject
+Subjects:
+ An integer from 1 to 30, corresponding to a test subject
 
-activityName is WALKING
+Activities: 
+ WALKING
  WALKING_UPSTAIRS
  WALKING_DOWNSTAIRS
  SITTING STANDING
